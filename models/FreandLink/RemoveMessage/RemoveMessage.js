@@ -1,0 +1,1 @@
+module.exports.REMOVE_MESSAGE = `DELETE FROM sub_message WHERE sub_message.m_to = $1 and sub_message.m_from = $2`;

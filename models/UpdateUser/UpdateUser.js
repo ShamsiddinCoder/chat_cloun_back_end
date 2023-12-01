@@ -1,0 +1,1 @@
+module.exports.UPDATE_USER = `UPDATE users SET name = $1, avatar = $2, auth = $3, password = $4 WHERE id = $5 RETURNING *`;

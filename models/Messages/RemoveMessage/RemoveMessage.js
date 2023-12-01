@@ -1,0 +1,1 @@
+module.exports.REMOVE_MESSAGE = `DELETE FROM messages WHERE id = $1 RETURNING *`;

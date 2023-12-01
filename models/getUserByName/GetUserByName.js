@@ -1,0 +1,1 @@
+module.exports.GET_USER_NAME = `  SELECT * FROM users WHERE name = $1 and password = $2`;

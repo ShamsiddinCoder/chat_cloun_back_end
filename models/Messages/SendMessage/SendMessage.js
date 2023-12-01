@@ -1,0 +1,1 @@
+module.exports.SEND_MESSAGE = `INSERT INTO messages(from_id, to_id, message) VALUES($1, $2, $3) RETURNING *`;

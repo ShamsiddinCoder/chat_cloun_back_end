@@ -1,0 +1,1 @@
+module.exports.GET_MESSAGE = `SELECT * FROM sub_message WHERE sub_message.m_to = $1`;

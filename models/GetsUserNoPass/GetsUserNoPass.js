@@ -1,0 +1,1 @@
+module.exports.GETUSER_NO_PASS = `SELECT id, name, avatar, auth FROM users where id = $1`;

@@ -1,0 +1,1 @@
+module.exports.REMOVE_AVATAR = `DELETE from user_avatars where id = $1 and u_id = $2 RETURNING *`;

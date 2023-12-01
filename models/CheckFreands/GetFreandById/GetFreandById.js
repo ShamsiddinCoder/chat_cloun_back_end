@@ -1,0 +1,1 @@
+module.exports.GET_FREANDS_BY_ID = `SELECT * FROM freands WHERE freands.user_id = $1 and freands.freand_id = $2`;

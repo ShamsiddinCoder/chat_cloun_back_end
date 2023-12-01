@@ -1,0 +1,1 @@
+module.exports.SEND_FREAND = `INSERT INTO freands(user_id, freand_id) VALUES($1, $2) RETURNING *`;

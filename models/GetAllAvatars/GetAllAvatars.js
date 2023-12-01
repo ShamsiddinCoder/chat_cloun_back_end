@@ -1,0 +1,1 @@
+module.exports.GETALL_AVATARS = `SELECT * FROM user_avatars WHERE u_id = $1`;

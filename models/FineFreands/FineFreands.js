@@ -1,0 +1,1 @@
+module.exports.FINE_FREANDS = `select * from users where name ilike '$ = 1%'`;

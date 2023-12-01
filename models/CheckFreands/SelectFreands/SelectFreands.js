@@ -1,0 +1,1 @@
+module.exports.SELECT_FREANDS = `SELECT * FROM freands where freands.user_id = $1`;

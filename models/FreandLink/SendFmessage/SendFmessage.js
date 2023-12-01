@@ -1,0 +1,1 @@
+module.exports.SEND_M = `INSERT INTO sub_message(m_from, m_to) VALUES($1, $2) RETURNING *`;

@@ -1,0 +1,1 @@
+module.exports.POST_NEW_USER = `INSERT INTO users(name, password) VALUES($1, $2) RETURNING*`;

@@ -1,0 +1,1 @@
+module.exports.DELETE_FREANDS = `DELETE FROM freands WHERE id = $1 and id = $2`;

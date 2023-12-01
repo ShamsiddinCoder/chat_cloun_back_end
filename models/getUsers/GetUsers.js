@@ -1,0 +1,1 @@
+module.exports.GET_USERS = `SELECT * FROM users`;
